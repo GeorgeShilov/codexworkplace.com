@@ -1,0 +1,9 @@
+{
+  "name": "blog-stack-cover",
+  "size": "landscape_16_9",
+  "prompt": "Editorial blog cover for Cloudflare and Railway launch stack, edge network flowing into backend service blocks, modern infrastructure visualization, premium SaaS look, no vendor logos, no readable text",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 579619185
+  }
+}

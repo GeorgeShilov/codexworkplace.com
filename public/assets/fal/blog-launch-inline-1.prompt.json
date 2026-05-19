@@ -1,0 +1,9 @@
+{
+  "name": "blog-launch-inline-1",
+  "size": "landscape_4_3",
+  "prompt": "Inline blog image showing a SaaS launch workflow from brief to domain to deploy, clean UI process diagram style, premium Codex Workplace brand, no readable text, navy cyan amber palette",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 868557356
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "logo-2",
+  "size": "square_hd",
+  "prompt": "Modern technology logo for Codex Workplace, abstract speed signal and funnel control symbol, clean geometric icon, black navy and bright amber accent, flat vector-like, centered, plain white background, no extra words",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 1375427870
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "logo-3",
+  "size": "square_hd",
+  "prompt": "Premium SaaS logo symbol for Codex Workplace, compact monogram TFC with flash motion cut, sophisticated fintech-style geometry, teal, white, graphite, crisp edges, centered, flat vector-like, no text artifacts",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 2116226482
+  }
+}

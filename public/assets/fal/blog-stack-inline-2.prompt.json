@@ -1,0 +1,9 @@
+{
+  "name": "blog-stack-inline-2",
+  "size": "landscape_4_3",
+  "prompt": "Inline image of API service, database, and frontend deployment blocks connected in a simple SaaS launch architecture, no readable text",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 1511976691
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "blog-visuals-cover",
+  "size": "landscape_16_9",
+  "prompt": "Editorial blog cover for AI generated SaaS visuals, brand system board with logo variants, hero image, blog covers, modern creative operations dashboard, Codex Workplace colors, no readable text",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 1870214967
+  }
+}

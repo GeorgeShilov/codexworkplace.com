@@ -1,0 +1,9 @@
+{
+  "name": "hero-background",
+  "size": "landscape_16_9",
+  "prompt": "Hero background for Codex Workplace, AI AI work launch command center for SaaS growth teams, elegant product dashboard environment, live signal streams, campaign flow map, conversion panels, premium modern SaaS website visual, deep navy, cyan, amber, realistic UI surfaces, soft studio lighting, no readable text",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 960566420
+  }
+}

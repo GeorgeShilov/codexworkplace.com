@@ -1,0 +1,9 @@
+{
+  "name": "blog-launch-cover",
+  "size": "landscape_16_9",
+  "prompt": "Editorial blog cover image for a SaaS launch sprint, Codex Workplace brand style, product launch command desk, timeline cards, deployment signal, modern B2B SaaS illustration, deep navy with cyan and amber highlights, no readable text",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 184694932
+  }
+}

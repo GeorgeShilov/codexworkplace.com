@@ -1,0 +1,9 @@
+{
+  "name": "blog-visuals-inline-2",
+  "size": "landscape_4_3",
+  "prompt": "Inline image showing blog image generation assets arranged as cover and inline visuals, modern editorial SaaS content system, no readable text",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 1611729457
+  }
+}

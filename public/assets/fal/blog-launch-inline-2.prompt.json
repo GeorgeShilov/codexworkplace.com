@@ -1,0 +1,9 @@
+{
+  "name": "blog-launch-inline-2",
+  "size": "landscape_4_3",
+  "prompt": "Inline blog image showing a deployment stack with Cloudflare edge and Railway backend, abstract infrastructure dashboard, premium SaaS editorial style, no logos, no readable text",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 959182265
+  }
+}

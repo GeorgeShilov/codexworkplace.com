@@ -1,0 +1,9 @@
+{
+  "name": "logo-1",
+  "size": "square_hd",
+  "prompt": "Minimal SaaS logo mark for Codex Workplace, sharp lightning bolt forming subtle letters TFC, premium B2B software brand, flat vector-like mark, high contrast, electric cyan and deep navy, centered on plain white background, no mockup, no 3d, no tiny text",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 2133912150
+  }
+}

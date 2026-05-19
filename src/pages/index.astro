@@ -1,0 +1,172 @@
+---
+import ArchiveNotice from "@/components/ArchiveNotice.astro";
+import PostCard from "@/components/PostCard.astro";
+import Layout from "@/layouts/Layout.astro";
+import { site } from "@/config/site";
+import { getBlogPosts } from "@/lib/squidex";
+
+const posts = await getBlogPosts();
+const featured = posts.find((post) => post.featured) || posts[0];
+---
+
+<Layout title="AI AI work launch command" description={site.description}>
+  <ArchiveNotice />
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Codex Workplace / AI work launch command</p>
+      <h1>Move faster from work to shipped.</h1>
+      <p class="lead">
+        Codex Workplace gives SaaS teams a single command surface for launch work, funnel movement,
+        content experiments, and the next conversion decision.
+      </p>
+      <div class="button-row">
+        <a class="button" href="/gateway/">Explore command OS</a>
+        <a class="button secondary" href="/blog/">Read field notes</a>
+      </div>
+    </div>
+    <div class="hero-panel" aria-label="Codex Workplace signal summary">
+      <div>
+        <span>Core view</span>
+        <strong>AI workspace control</strong>
+      </div>
+      <div>
+        <span>Signals</span>
+        <strong>Campaign, content, conversion</strong>
+      </div>
+      <div>
+        <span>Launch stack</span>
+        <strong>Cloudflare, Railway, fal.ai</strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="section band">
+    <div class="section-inner split">
+      <div>
+        <p class="eyebrow">Why it exists</p>
+        <h2>Launch teams need signal before perfect attribution.</h2>
+      </div>
+      <div class="history-list">
+        {site.launchContext.map((item) => <p>{item}</p>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <p class="eyebrow">Command architecture</p>
+      <h2>One view for the messy first mile of growth.</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Work map</h3>
+          <p>Track channels, experiments, and launch pushes without hiding the pattern.</p>
+        </article>
+        <article class="card">
+          <h3>Funnel review</h3>
+          <p>Turn early movement into simple decisions for pages, offers, and follow-up.</p>
+        </article>
+        <article class="card">
+          <h3>Launch rhythm</h3>
+          <p>Connect campaign planning, content output, and deploy checks into one habit.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  {featured && (
+    <section class="section band">
+      <div class="section-inner">
+        <p class="eyebrow">Featured note</p>
+        <h2>Start with work command.</h2>
+        <PostCard post={featured} />
+      </div>
+    </section>
+  )}
+</Layout>
+
+<style>
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+    gap: clamp(28px, 5vw, 72px);
+    min-height: calc(100vh - 68px);
+    align-items: center;
+    padding: clamp(58px, 8vw, 110px) clamp(18px, 5vw, 64px) clamp(42px, 6vw, 80px);
+    background:
+      linear-gradient(135deg, rgba(2, 6, 23, 0.9), rgba(8, 47, 73, 0.68)),
+      url("/assets/fal/hero-background.png") center / cover no-repeat;
+    color: #fff;
+  }
+
+  .hero-copy {
+    max-width: 860px;
+  }
+
+  .hero .lead {
+    color: rgba(255, 255, 255, 0.78);
+  }
+
+  .hero-panel {
+    display: grid;
+    gap: 12px;
+    padding: 18px;
+    border: 1px solid rgba(17, 24, 39, 0.14);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: var(--shadow);
+  }
+
+  .hero-panel div {
+    border-bottom: 1px solid #d9dee8;
+    padding: 14px;
+  }
+
+  .hero-panel div:last-child {
+    border-bottom: 0;
+  }
+
+  .hero-panel span {
+    display: block;
+    color: #5c6676;
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  .hero-panel strong {
+    display: block;
+    margin-top: 5px;
+    color: #101828;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .split {
+    display: grid;
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+    gap: 36px;
+  }
+
+  .history-list {
+    display: grid;
+    gap: 16px;
+  }
+
+  .history-list p {
+    border-left: 4px solid #06b6d4;
+    padding-left: 16px;
+  }
+
+  @media (max-width: 860px) {
+    .hero,
+    .split {
+      grid-template-columns: 1fr;
+    }
+
+    .hero {
+      min-height: auto;
+      background-size: 720px;
+      background-position: center bottom;
+      padding-bottom: 300px;
+    }
+  }
+</style>

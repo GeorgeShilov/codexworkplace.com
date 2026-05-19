@@ -1,0 +1,9 @@
+{
+  "name": "blog-stack-inline-1",
+  "size": "landscape_4_3",
+  "prompt": "Inline image of DNS routing and CDN edge nodes for a newly bought SaaS domain, clean technical diagram look, no readable text, navy cyan amber",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 994009835
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "blog-visuals-inline-1",
+  "size": "landscape_4_3",
+  "prompt": "Inline image showing two or three logo variants being compared in a clean brand review interface, premium B2B SaaS style, no readable text",
+  "model": "fal-ai/flux/schnell",
+  "result": {
+    "seed": 924884526
+  }
+}
