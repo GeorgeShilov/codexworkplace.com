@@ -1,5 +1,4 @@
 ---
-import ArchiveNotice from "@/components/ArchiveNotice.astro";
 import PostCard from "@/components/PostCard.astro";
 import Layout from "@/layouts/Layout.astro";
 import { site } from "@/config/site";
@@ -10,7 +9,6 @@ const featured = posts.find((post) => post.featured) || posts[0];
 ---
 
 <Layout title="AI AI work launch command" description={site.description}>
-  <ArchiveNotice />
   <section class="hero">
     <div class="hero-copy">
       <p class="eyebrow">Codex Workplace / AI work launch command</p>
