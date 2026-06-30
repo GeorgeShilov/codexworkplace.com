@@ -96,7 +96,14 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
     if (!response.ok) throw new Error(`Squidex content failed: ${response.status}`);
     const json = await response.json();
     const posts = (json.items || []).map(mapItem);
-    return posts.length ? posts : fallbackPosts;
+    // Merge fallback posts with Squidex posts so locally published articles stay visible
+    const merged = [...fallbackPosts, ...posts];
+    const seen = new Set<string>();
+    return merged.filter((post) => {
+      if (seen.has(post.slug)) return false;
+      seen.add(post.slug);
+      return true;
+    });
   } catch (error) {
     console.warn(error);
     return fallbackPosts;
