@@ -2,6 +2,7 @@ FROM node:24-bookworm-slim AS build
 WORKDIR /app
 COPY package*.json ./
 RUN npm ci
+ARG CACHE_BUST=1
 COPY . .
 RUN npm run build
 
