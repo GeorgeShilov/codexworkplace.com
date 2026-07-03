@@ -157,7 +157,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bff2/MiGsPBvmSc0aOVTNLum18.jpg",
     inlineImages: [],
     referenceUrl: "https://swapzone.io/exchange/btc/usdt",
     articleText: `
@@ -814,7 +814,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bff2/mgxeJHx9kHkI6uXIr0u_s.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -1248,7 +1248,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bff2/3VIby3NQzqXnndOw7_gA0.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -1507,7 +1507,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bff2/BBIp1BGVMKzmRoH08Is-5.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
