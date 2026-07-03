@@ -698,7 +698,7 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf9c/-GTPFwXcMe9JCxeMpRBqF.jpg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
@@ -1239,10 +1239,7 @@ export const fallbackPosts: BlogPost[] = [
 <p>Hardware wallets are ideal for long-term holdings, but they are not the only tool in a security strategy. Multi-signature arrangements can require two or more devices to approve a transaction, reducing the impact of a single lost or stolen wallet. A BIP39 passphrase adds a memorized component that protects the seed phrase itself.</p>
 <p>For smaller everyday amounts or frequent trading, some users prefer the speed of a software wallet. Guarda offers a non-custodial <a href="https://guarda.com/">cryptocurrency wallet</a> that supports a wide range of assets across desktop and mobile, though it should not be treated with the same risk profile as offline cold storage.</p>
 <h2 id="choosing-the-right-wallet-for-your-needs">Choosing the Right Wallet for Your Needs</h2>
-<p>No single device is perfect for everyone. A beginner with a modest portfolio may be perfectly served by a budget USB wallet and a metal seed backup. A high-net-worth holder or institution may prefer an air-gapped, certified device with multi-signature support. The key is matching the wallet’s security model to your threat model, verifying every device you buy, and treating the recovery phrase as the most valuable part of your setup. With the right hardware wallet and disciplined habits, you can keep your digital assets under your own control without making them an easy target.</p>
-    `
-  },
-  {
+<p>No single device is perfect for everyone. A beginner with a modest portfolio may be perfectly served by a budget USB wallet and a metal seed backup. A high-net-worth holder or institution may prefer an air-gapped, certified device with multi-signature support. The key is matching the wallet’s security model to your threat model, verifying every device you buy, and treating the recovery phrase as the most valuable part of your setup. With the right hardware wallet and disciplined habits, you can keep your digital assets under your own control without makin{
     slug: "best-crypto-hardware-wallets",
     title: "Top Hardware Wallets for Crypto Security",
     description: "If you treat digital assets as long-term savings rather than short-term trades, self-custody is usually the next step. A hardware wallet is a specialized type o",
@@ -1251,7 +1248,8 @@ export const fallbackPosts: BlogPost[] = [
     category: "General",
     tags: [],
     featured: false,
-    heroImage: "/assets/archive-grid.svg",
+    heroImage: "https://v3b.fal.media/files/b/0aa0bf9c/LbODgekNRhdONqTMUwDC0.jpg",
+    inlineImages:ets/archive-grid.svg",
     inlineImages: [],
     referenceUrl: "https://guarda.com/",
     articleText: `
