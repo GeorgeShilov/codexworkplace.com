@@ -7,7 +7,7 @@ const { post } = Astro.props as { post: BlogPost };
 <article class="post-card">
   <img src={post.heroImage} alt="" loading="lazy" />
   <div>
-    <p class="meta">{post.category} / {new Date(post.pubDate).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</p>
+    <p class="meta">{post.category} / {new Date(post.pubDate).toLocaleDateString("ru-RU")}</p>
     <h3><a href={`/blog/${post.slug}/`}>{post.title}</a></h3>
     <p>{post.description}</p>
     <div class="tags">
@@ -44,9 +44,7 @@ const { post } = Astro.props as { post: BlogPost };
     font-weight: 800;
   }
 
-  h3 a:hover {
-    color: #0f766e;
-  }
+  h3 a:hover { color: var(--accent); text-decoration: underline; }
 
   .tags {
     display: flex;
